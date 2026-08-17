@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050807"><title>WESTONE — Application Portal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="noise"></div><div id="cursor" class="cursor"></div>
+<header class="site-nav">
+  <a href="#home" class="brand" aria-label="Westone"><span class="brand-box">W</span><span><b>WESTONE</b><small>ROLEPLAY COMMUNITY</small></span></a>
+  <nav><a href="#home">الرئيسية</a><a href="#about">عن Westone</a><a href="#process">طريقة التقديم</a><a href="#team">طاقم الإدارة</a><a href="#faq">الأسئلة</a></nav>
+  <div class="nav-actions">
+    <button id="discordNav" class="discord-connect" data-action="discord" aria-label="ربط حساب Discord"><span class="discord-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.54 5.34A16.7 16.7 0 0 0 15.45 4l-.5 1.02a15.6 15.6 0 0 0-5.9 0L8.55 4a16.7 16.7 0 0 0-4.09 1.34C1.88 9.4 1.18 13.36 1.53 17.27a16.7 16.7 0 0 0 5.01 2.53l1.22-1.67c-.67-.25-1.3-.57-1.9-.94l.46-.36c3.67 1.7 7.65 1.7 11.28 0l.46.36c-.6.37-1.23.69-1.9.94l1.22 1.67a16.7 16.7 0 0 0 5.01-2.53c.41-4.53-.69-8.45-2.85-11.93ZM8.68 14.85c-1.12 0-2.04-1.04-2.04-2.31s.9-2.31 2.04-2.31c1.15 0 2.05 1.04 2.04 2.31 0 1.27-.9 2.31-2.04 2.31Zm6.64 0c-1.12 0-2.04-1.04-2.04-2.31s.9-2.31 2.04-2.31c1.15 0 2.05 1.04 2.04 2.31 0 1.27-.9 2.31-2.04 2.31Z"/></svg></span><span class="discord-label">ربط Discord</span></button>
+    <div id="profileWrap" class="profile-wrap hidden">
+      <button id="userNav" class="profile-button" aria-expanded="false" aria-controls="profileModal" title="حساب Discord">
+        <img id="userAvatar" alt="Discord avatar">
+        <span class="profile-dot"></span>
+      </button>
+    </div>
+    <button class="nav-cta" data-action="apply">ابدأ التقديم <span>↗</span></button>
+  </div>
+</header>
+<main>
+<section id="home" class="hero reveal-section">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-orb orb1"></div>
+  <div class="hero-orb orb2"></div>
+
+  <div class="hero-copy reveal">
+    <span class="eyebrow"><i></i> WESTONE ROLEPLAY</span>
+
+    <h1>
+      <span>اصنع قصتك.</span>
+      <em>واترك أثرك.</em>
+      <span>في Westone.</span>
+    </h1>
+
+    <p>
+      بوابتك الرسمية للانضمام إلى عالم Westone.
+      اربط حسابك في Discord، وابدأ رحلتك، واكتب قصتك بأسلوبك الخاص.
+    </p>
+
+    <div class="actions">
+      <button class="btn primary" data-action="apply">
+        ابدأ التقديم <b>↗</b>
+      </button>
+
+      <a class="btn ghost" href="#process">
+        اكتشف التجربة <b>↓</b>
+      </a>
+    </div>
+
+    <div class="hero-stats">
+      <span><b>01</b> ربط Discord</span>
+      <span><b>02</b> التقديم الإلكتروني</span>
+      <span><b>03</b> مراجعة الإدارة</span>
+    </div>
+  </div>
+
+  <div class="hero-emblem reveal delay2">
+    <div class="emblem-ring r1"></div>
+    <div class="emblem-ring r2"></div>
+    <div class="emblem-ring r3"></div>
+    <strong>W</strong>
+    <small>EST. 2026</small>
+  </div>
+
+  <div class="scroll-hint">
+    مرر لاستكشاف التجربة <i></i>
+  </div>
+</section>
+</section>
+<section id="about" class="section about"><div class="section-index">01 / 06</div><div class="heading reveal"><span class="eyebrow"><i></i> THE EXPERIENCE</span><h2>مو مجرد تقديم.<br><em>هذه بداية قصتك.</em></h2></div><div class="feature-grid"><article class="feature feature-big reveal"><span>01</span><h3>تجربة مصممة حولك.</h3><p>نظام تقديم متعدد المراحل، واضح، سريع، ومبني ليعطيك تجربة احترافية من أول دخول حتى إرسال الطلب.</p><div class="feature-line"></div></article><article class="feature reveal delay1"><span>02</span><h3>هوية Discord</h3><p>لا يوجد تقديم مجهول. يجب ربط حساب Discord قبل الوصول إلى نموذج التقديم.</p></article><article class="feature reveal delay2"><span>03</span><h3>طلب برقم خاص</h3><p>كل طلب يحصل على رقم مرجعي مثل <b>APP-00001</b> لتقدر تتابع حالته بسهولة.</p></article></div></section>
+<section id="process" class="section process"><div class="section-index">02 / 06</div><div class="heading split reveal"><div><span class="eyebrow"><i></i> HOW IT WORKS</span><h2>أربع خطوات.<br><em>بسيطة وواضحة.</em></h2></div><p>التجربة مبنية حول نظامك الحالي، لذلك الصفحات والأسئلة يمكن للإدارة التحكم فيها من لوحة واحدة.</p></div><div class="steps"><article class="step reveal"><b>01</b><h3>اربط Discord</h3><p>سجل دخولك بحساب Discord للتحقق من هويتك.</p></article><article class="step reveal delay1"><b>02</b><h3>أكمل الطلب</h3><p>جاوب على الصفحات والأسئلة التي يحددها طاقم الإدارة.</p></article><article class="step reveal delay2"><b>03</b><h3>راجع وأرسل</h3><p>راجع إجاباتك ثم أرسل الطلب لتحصل على رقمك الخاص.</p></article><article class="step reveal delay3"><b>04</b><h3>تابع الحالة</h3><p>من لوحة حسابك تعرف هل الطلب قيد المراجعة أو تم قبوله أو رفضه.</p></article></div></section>
+<section class="section status-showcase"><div class="section-index">03 / 06</div><div class="status-copy reveal"><span class="eyebrow"><i></i> APPLICATION STATUS</span><h2>من التقديم<br><em>إلى القرار.</em></h2><p>كل حالة لها تجربة واضحة. لا تحتاج تسأل عن طلبك؛ افتح لوحة حسابك وشاهد آخر تحديث.</p></div><div class="status-card reveal delay1"><div class="status-top"><span>APPLICATION</span><b>APP-00042</b></div><div class="timeline"><div class="done"><i>✓</i><span>تم الإرسال</span><small>طلبك وصل بنجاح</small></div><div class="active"><i>02</i><span>قيد المراجعة</span><small>الإدارة تراجع طلبك</small></div><div><i>03</i><span>القرار</span><small>سيظهر هنا بعد المراجعة</small></div></div></div></section>
+<section id="team" class="section team"><div class="section-index">04 / 06</div><div class="heading split reveal"><div><span class="eyebrow"><i></i> THE CREW</span><h2>طاقم<br><em>الإدارة.</em></h2></div><p>فريق Westone الذي يدير التجربة، يراجع الطلبات، ويصنع لك مجتمعًا يستحق أن تكون جزءًا منه.</p></div><div id="teamGrid" class="team-grid"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div></section>
+<section id="faq" class="section faq"><div class="section-index">05 / 06</div><div class="faq-title reveal"><span class="eyebrow"><i></i> FAQ</span><h2>أسئلة<br><em>متكررة.</em></h2></div><div class="faq-list"><button class="faq reveal"><span>هل أقدر أقدم بدون Discord؟</span><b>+</b><p>لا. يجب ربط حساب Discord بالموقع أولًا حتى يتم التعرف على حسابك وربط الطلب بهويتك.</p></button><button class="faq reveal delay1"><span>هل أقدر أعدل الطلب بعد الإرسال؟</span><b>+</b><p>نظام التقديم الحالي يرسل الطلب للمراجعة، لذلك راجع إجاباتك جيدًا قبل الإرسال.</p></button><button class="faq reveal delay2"><span>كيف أعرف رقم طلبي؟</span><b>+</b><p>بعد الإرسال تحصل على رقم مرجعي مثل APP-00001 ويظهر لك في لوحة الحساب.</p></button><button class="faq reveal delay3"><span>من يحدد الأسئلة والصفحات؟</span><b>+</b><p>طاقم الإدارة المخول يقدر يضيف صفحات وأسئلة ويحذفها أو يعطلها من لوحة التحكم.</p></button></div></section>
+<section class="section final"><div class="final-glow"></div><div class="final-content reveal"><span class="eyebrow center"><i></i> READY?</span><h2>قصتك تنتظر<br><em>أن تبدأ.</em></h2><p>اربط Discord وخذ خطوتك الأولى.</p><button class="btn primary" data-action="apply">ابدأ التقديم <b>↗</b></button></div><div class="watermark">WESTONE</div></section>
+</main>
+<footer><div><b>WESTONE</b><span>APPLICATION PORTAL</span></div><small>© 2026 WESTONE. ALL RIGHTS RESERVED.</small></footer>
+
+<div id="profileModal" class="profile-modal" aria-hidden="true">
+  <div class="profile-backdrop" data-close-profile></div>
+  <section class="profile-card" role="dialog" aria-modal="true" aria-labelledby="profileTitle">
+    <button class="profile-close" data-close-profile aria-label="إغلاق">×</button>
+    <div class="profile-cover"></div>
+    <div class="profile-body">
+      <div class="profile-identity">
+        <div class="profile-avatar-frame"><img id="panelAvatar" alt="Discord avatar"><span class="profile-online"></span></div>
+        <div class="profile-title-wrap">
+          <span class="profile-badge">DISCORD ACCOUNT</span>
+          <h2 id="profileTitle">—</h2>
+          <p id="panelUsername">@—</p>
+        </div>
+        <span class="role-chip" id="panelRole">USER</span>
+      </div>
+      <div class="profile-stats-grid">
+        <div class="profile-stat"><span>Discord ID</span><strong id="panelId">—</strong></div>
+        <div class="profile-stat"><span>الحساب</span><strong id="panelUsernameCopy">@—</strong></div>
+      </div>
+      <div class="profile-actions-grid">
+        <button id="profileAccountAction" class="profile-main-action">لوحة حسابي <span>↗</span></button>
+        <button id="copyDiscordId" class="profile-secondary-action">نسخ Discord ID</button>
+        <button id="profileLogout" class="profile-logout-action">تسجيل الخروج</button>
+      </div>
+    </div>
+  </section>
+</div>
+<div id="appModal" class="modal"><div class="modal-head"><button class="icon-close" data-close="appModal">×</button><div><b>WESTONE</b><small>APPLICATION</small></div><strong id="appStepCounter">01 / 01</strong></div><div class="modal-progress"><i id="appProgress"></i></div><div id="appContent" class="app-shell"></div></div>
+<div id="dashboardModal" class="modal"><div class="modal-head"><button class="icon-close" data-close="dashboardModal">×</button><div><b>MY WESTONE</b><small>DASHBOARD</small></div><strong>ACCOUNT</strong></div><div id="dashboardContent" class="dashboard-shell"></div></div>
+<div id="adminModal" class="modal admin-modal"><div class="modal-head"><button class="icon-close" data-close="adminModal">×</button><div><b>WESTONE ADMIN</b><small>CONTROL CENTER</small></div><strong>ADMIN</strong></div><div class="admin-shell"><aside class="admin-sidebar"><button class="admin-tab active" data-admin-tab="overview">Overview</button><button class="admin-tab" data-admin-tab="applications">الطلبات</button><button class="admin-tab" data-admin-tab="builder">منشئ التقديم</button><button class="admin-tab" data-admin-tab="team">طاقم الإدارة</button><button class="admin-tab" data-admin-tab="settings">الإعدادات</button></aside><section id="adminContent" class="admin-content"></section></div></div>
+<div id="staffEditorModal" class="form-modal" aria-hidden="true">
+  <div class="form-modal-backdrop" data-close-staff></div>
+  <section class="form-modal-card" role="dialog" aria-modal="true" aria-labelledby="staffEditorTitle">
+    <div class="form-modal-head">
+      <div><span class="eyebrow"><i></i> ADMINISTRATION</span><h3 id="staffEditorTitle">إضافة إداري</h3></div>
+      <button class="icon-close" data-close-staff>×</button>
+    </div>
+    <div class="staff-editor-grid">
+      <div class="staff-photo-field">
+        <div class="staff-photo-preview"><img id="staffPreview" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="preview"></div>
+        <label class="upload-btn">اختر صورة من جهازك<input id="staffImageFile" type="file" accept="image/*"></label>
+        <small>للربط النهائي خزّن الصورة في خدمة تخزين وأرسل image_url للـ API.</small>
+      </div>
+      <div class="editor-form staff-form">
+        <label>اسم الإداري<input id="staffNameInput" type="text" placeholder="مثال: محمد"></label>
+        <label>المسمى الإداري<input id="staffRoleInput" type="text" placeholder="مثال: Founder"></label>
+        <label>رابط الصورة (اختياري)<input id="staffImageInput" type="url" placeholder="https://..."></label>
+        <label class="toggle"><input id="staffEnabledInput" type="checkbox" checked> إظهار الإداري في الموقع</label>
+      </div>
+    </div>
+    <div class="form-modal-actions"><button class="small-btn" data-close-staff>إلغاء</button><button id="saveStaffBtn" class="small-btn green">حفظ الإداري</button></div>
+  </section>
+</div>
+<div id="toast" class="toast"></div><script src="config.js"></script><script src="script.js"></script>
+</body></html>
