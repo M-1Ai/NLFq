@@ -34,7 +34,7 @@ router.get(
       const user = await upsertUserFromDiscord(discordUser);
       const token = signToken({ sub: user.id });
       res.cookie(config.cookieName, token, config.sessionCookieOptions);
-      return res.redirect(`${config.frontendUrl}/dashboard`);
+      return res.redirect(`${config.frontendUrl}/#dashboard`);
     } catch (e) {
       console.error('Discord OAuth callback error:', e.message);
       return res.redirect(failUrl);
